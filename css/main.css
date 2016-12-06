@@ -32,3 +32,9 @@ h3 {
   color: #fff;
   background-color: #000;
 }
+
+.intro {
+  background-image: url("../images/beans.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
