@@ -16,6 +16,10 @@ h3 {
   text-decoration: underline;
 }
 
+.cocos {
+  width: 30%;
+}
+
 .banner-text {
   border-bottom: 2px solid #000;
 }
