@@ -44,7 +44,15 @@ h3 {
   color: #fff;
 }
 
+.products {
+  background-color: #e2e2e2;
+}
+
 .prod-list,
 .about-list {
   list-style-type: none;
+}
+
+.prod-pic {
+  margin: -3em 0 0 0;
 }
