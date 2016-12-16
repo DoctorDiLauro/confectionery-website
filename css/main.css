@@ -56,6 +56,15 @@ h3 {
   list-style-type: none;
 }
 
-.prod-pic {
+.prod-pic-div {
   margin: -3em 0 0 0;
+}
+
+.prod-pic {
+ max-height: 1em;
+}
+
+footer {
+  background-color: #ccc;
+  padding: 1em 0 5em;
 }
