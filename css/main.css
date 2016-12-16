@@ -12,12 +12,8 @@ h3 {
   font-family: "Special Elite", normal;
 }
 
-h3 {
-  text-decoration: underline;
-}
-
 .cocos {
-  width: 30%;
+  max-width: 20%
 }
 
 .banner-text {
@@ -56,12 +52,22 @@ h3 {
   list-style-type: none;
 }
 
+.prod-pic {
+  max-width: 35em;
+  margin: auto;
+}
+
 .prod-pic-div {
   margin: -3em 0 0 0;
 }
 
-.prod-pic {
- max-height: 1em;
+.img-flex {
+  max-width: 100%
+}
+
+.about-txt {
+  display: block;
+  margin: auto;
 }
 
 footer {
