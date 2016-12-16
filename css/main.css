@@ -44,7 +44,9 @@ h3 {
 }
 
 .products {
-  background-color: #e2e2e2;
+  background-image: url("../images/product-bg.svg");
+  background-size: 5px auto;
+  border-bottom: 1px solid #F4DFCE
 }
 
 .prod-list,
@@ -70,7 +72,12 @@ h3 {
   margin: auto;
 }
 
+.contact {
+  background-image: url("../images/contact-bg.svg");
+  border-top: 1px solid #F4DFCE;
+}
+
 footer {
-  background-color: #ccc;
+  background-color: #F4DFCE;
   padding: 1em 0 5em;
 }
