@@ -13,7 +13,7 @@ h3 {
 }
 
 .cocos {
-  max-width: 20%
+  max-width: 20%;
 }
 
 .banner-text {
@@ -46,7 +46,7 @@ h3 {
 .products {
   background-image: url("../images/product-bg.svg");
   background-size: 5px auto;
-  border-bottom: 1px solid #F4DFCE
+  border-bottom: 1px solid #f4dfce;
 }
 
 .prod-list,
@@ -64,7 +64,7 @@ h3 {
 }
 
 .img-flex {
-  max-width: 100%
+  max-width: 100%;
 }
 
 .about-txt {
@@ -74,10 +74,10 @@ h3 {
 
 .contact {
   background-image: url("../images/contact-bg.svg");
-  border-top: 1px solid #F4DFCE;
+  border-top: 1px solid #f4dfce;
 }
 
 footer {
-  background-color: #F4DFCE;
+  background-color: #f4dfce;
   padding: 1em 0 5em;
 }

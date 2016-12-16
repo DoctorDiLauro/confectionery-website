@@ -5,8 +5,8 @@
   <title>Coco's Chocolatiers</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Nixie+One|Special+Elite" rel="stylesheet">
 </head>
@@ -21,7 +21,7 @@
         <ul class="nav-list grid text-center list-group">
           <li class="unit xs-1-3 list-group-item"><a href="#products" class="nav-btn">products</a></li>
           <li class="unit xs-1-3 list-group-item"><a href="#about" class="nav-btn">about</a></li>
-          <li class="unit xs-1-3 list-group-item"><a href="#" class="nav-btn">contact</a></li>
+          <li class="unit xs-1-3 list-group-item"><a href="#contact" class="nav-btn">contact</a></li>
         </ul>
       </nav>
     </div>
@@ -77,10 +77,10 @@
           <div class="history-pic center embed embed-1by1 push-2">
             <img class="img-flex store-pic embed-item" src="images/store.jpg" alt="">
           </div>
-        <li class="max-length about-txt max-length unit xs-1 s-1 m-1 l-1">
-          <h4 class="push-0">Our chocolate</h4>
-          <p class="push-2">We use nothing but the best ingredients, ensuring that our cocoa is fair trade from sustainable sources. Everything else that goes into our chocolate we get locally whenever we can. We believe in experimenting, and trying things well outside the norm, in hopes to allow our customers to experience something new. We don't want to make something ordinary, traditional, and familiar, and hope to keep adding more types of chocolate to our ever expanding line-up.</p>
-        </li>
+          <li class="max-length about-txt max-length unit xs-1 s-1 m-1 l-1">
+            <h4 class="push-0">Our chocolate</h4>
+            <p class="push-2">We use nothing but the best ingredients, ensuring that our cocoa is fair trade from sustainable sources. Everything else that goes into our chocolate we get locally whenever we can. We believe in experimenting, and trying things well outside the norm, in hopes to allow our customers to experience something new. We don't want to make something ordinary, traditional, and familiar, and hope to keep adding more types of chocolate to our ever expanding line-up.</p>
+          </li>
       </ul>
     </section>
 
@@ -91,15 +91,15 @@
         <form>
           <div class="push">
             <label for="name">Name</label>
-            <input id="name">
+            <input id="name" name="name">
           </div>
           <div class="push">
             <label for="email">Your email</label>
-            <input id="email" type="email" placeholder="someone@website.com">
+            <input id="email" type="email" name="email" placeholder="someone@website.com">
           </div>
           <div class="push">
             <label for="details">What's on your mind?</label>
-            <textarea id="details"></textarea>
+            <textarea id="details" name="message"></textarea>
           </div>
           <div class="pad-b-2">
             <button type="submit">send</button>
